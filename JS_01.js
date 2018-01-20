@@ -1,3 +1,7 @@
+
+
+//Task:
+//count how many times the letter appears in the sentence
 function liczbaZnakow(zdanie, litera) {
 
 
@@ -12,4 +16,4 @@ function liczbaZnakow(zdanie, litera) {
  return "Litera " + litera + " wystepuje  " + policz + " razy w zdaniu : " + zdanie ;
 }
 
-liczbaZnakow('Ala ma kota', 'a');
+liczbaZnakow('Three hidden keys open three secret gates', 'a');
