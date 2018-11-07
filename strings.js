@@ -1,30 +1,30 @@
-//const str = '     '
-//console.log(str.length)
-//
-//if (str.trim()) {
-//	console.log('string NOT empty')
-//} else{
-//	console.log('empty')
-//}
+const str = '     '
+console.log(str.length)
 
-//const sentence = 'Ala ma kota'
-//
-//console.log(
-//	sentence.includes('kot')
-//)
-//if (sentence.indexOf('kot') !== -1) {
-//	
-//}
+if (str.trim()) {
+	console.log('string NOT empty')
+} else{
+	console.log('empty')
+}
 
-//const imie = 'wlodek'
-//const przywitanie = `czesc ${imie}`
-//console.log(przywitanie)
+const sentence = 'Ala ma kota'
 
-//const zdanie = 'terminator ma motor , a glonojad ma przyssawke'
-//
-//const slowa = zdanie.split(' ')
-//
-//const szukane = slowa.filter(slowo => slowo === 'ma')
+console.log(
+	sentence.includes('kot')
+)
+if (sentence.indexOf('kot') !== -1) {
+	
+}
+
+const imie = 'wlodek'
+const przywitanie = `czesc ${imie}`
+console.log(przywitanie)
+
+const zdanie = 'terminator ma motor , a glonojad ma przyssawke'
+
+const slowa = zdanie.split(' ')
+
+const szukane = slowa.filter(slowo => slowo === 'ma')
 
 console.log(
 	zdanie
@@ -33,9 +33,9 @@ console.log(
 		.length
 	)
 
-//const szukane = slowa.filter(function slowo() {
-//	return slowo === 'ma'
-//})
+const szukane = slowa.filter(function slowo() {
+	return slowo === 'ma'
+})
 	
 console.log(szukane.length)
 	
